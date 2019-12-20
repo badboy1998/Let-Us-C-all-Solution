@@ -1,0 +1,18 @@
+\*Ramesh’s basic salary is input through the keyboard. His dearness allowance is 40% of basic salary
+and house rent allowance is 20% of basic salary.
+Write a program to calculate his gross salary*\
+
+
+#include<stdio.h>
+int main()
+{
+    int basic_salary,da,ta,gross_salary;
+    printf("enter your basic salary");
+    scanf("%d",&b);
+    da=(40*basic_salary)/100;
+    ta=(20*basic_salary)/100;
+    gross_salary=da+ta+basic_salary;
+    printf("gross salary is %d",gross_salary);
+    return 0;
+    
+}
